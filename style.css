@@ -1,0 +1,32 @@
+.background-header{
+    padding: 60px;
+    /* margin: 0 auto; */
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
+.background-body{
+    padding: 60px;
+    margin: 0 0, 0 0;
+    text-align: center;
+    background: #660e99;
+    color: white;
+    font-size: 30px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

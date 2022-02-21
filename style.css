@@ -1,32 +1,89 @@
-.background-header{
-    padding: 60px;
-    /* margin: 0 auto; */
-    text-align: center;
-    background: #1abc9c;
-    color: white;
-    font-size: 30px;
-    width: 100%;
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900|Noto Serif");
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
 }
 
-.background-body{
-    padding: 60px;
-    margin: 0 0, 0 0;
-    text-align: center;
-    background: #660e99;
-    color: white;
-    font-size: 30px;
+.background-header {
+  padding: 30px;
+  /* margin: 0 auto; */
+  text-align: center;
+  color: white;
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #00334c, #16506b, #2b6f8b, #4090ab, #56b2cb);
+}
+
+.background-body {
+  padding: 60px;
+  margin: 0 0, 0 0;
+  text-align: center;
+  background: #00334C;
+  color: white;
+  font-size: 30px;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("background.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-color: #00334C;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#timer {
+  color: #F6F4F3;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 5px;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.days, .hours, .minutes, .seconds {
+  display: inline-block;
+  padding: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.days {
+  background: #F7E214;
+  color: #00334C;
+}
+
+.hours {
+  background: #F7E214;
+  color: #00334C;
+}
+
+.minutes {
+  background: #F7E214;
+  color: #00334C;
+}
+
+.seconds {
+  background: #F7E214;
+  color: #00334C;
+}
+
+.numbers {
+  font-family: "Montserrat", sans-serif;
+  color: #00334C;
+  font-size: 4em;
+}
+
+.footer-display {
+  background: #f7e214;
+  background: linear-gradient(90deg, #f7e214 0%, #00334c 20%, #00334c 80%, #f7e214 100%);
+}
+
+/*# sourceMappingURL=style.css.map */

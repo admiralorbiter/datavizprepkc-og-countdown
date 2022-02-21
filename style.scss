@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900|Noto Serif');
+
+$font: 'Lato', sans-serif;
+$big: 'Montserrat', sans-serif;
+$font-header: 'Noto Serif', serif;
+
+$red: #EF2F3C;
+$white: #F6F4F3;
+$blue: #56B2CB;
+$dark: #00334C;
+$yellow: #F7E214;
+$gray: #818387;
+
+$star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.background-header{
+    padding: 30px;
+    /* margin: 0 auto; */
+    text-align: center;
+    // background: $blue;
+    color: white;
+    font-family: $font-header;
+    font-size: 30px;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #00334c, #16506b, #2b6f8b, #4090ab, #56b2cb);
+}
+
+.background-body{
+    padding: 60px;
+    margin: 0 0, 0 0;
+    text-align: center;
+    background: $dark;
+    color: white;
+    font-size: 30px;
+}
+
+.parallax {
+    /* The image used */
+    // background-image: url("background.jpg");
+    // background: rgb(247,226,20);
+    // background: linear-gradient(90deg, rgba(247,226,20,1) 0%, rgba(0,51,76,1) 10%, rgba(0,51,76,1) 90%, rgba(247,226,20,1) 100%);
+    background-color: $dark;
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#timer {
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font;
+    font-size: .7em;
+    letter-spacing: 5px;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+  
+.days, .hours, .minutes, .seconds {
+    display: inline-block;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+  
+.days {
+    background: $yellow;
+    color: $dark;
+}
+  
+.hours {
+    background: $yellow;
+    color: $dark;
+}
+  
+.minutes {
+    background: $yellow;
+    color: $dark;
+}
+  
+.seconds {
+    background: $yellow;
+    color: $dark;
+}
+  
+.numbers {
+    font-family: $big;
+    color: $dark;
+    font-size: 4em;
+}
+
+
+.footer-display{
+    background: rgb(247,226,20);
+    background: linear-gradient(90deg, rgba(247,226,20,1) 0%, rgba(0,51,76,1) 20%, rgba(0,51,76,1) 80%, rgba(247,226,20,1) 100%);
+}
+
+

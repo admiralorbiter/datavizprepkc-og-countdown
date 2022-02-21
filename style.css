@@ -86,4 +86,23 @@
   background: linear-gradient(90deg, #f7e214 0%, #00334c 20%, #00334c 80%, #f7e214 100%);
 }
 
+.link-footer:link {
+  color: white;
+}
+
+/* visited link */
+.link-footer:visited {
+  color: wheat;
+}
+
+/* mouse over link */
+.link-footer:hover {
+  color: #F7E214;
+}
+
+/* selected link */
+.link-footer:active {
+  color: #56B2CB;
+}
+
 /*# sourceMappingURL=style.css.map */

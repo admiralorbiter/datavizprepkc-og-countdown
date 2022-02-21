@@ -107,4 +107,23 @@ $star: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32%
     background: linear-gradient(90deg, rgba(247,226,20,1) 0%, rgba(0,51,76,1) 20%, rgba(0,51,76,1) 80%, rgba(247,226,20,1) 100%);
 }
 
+.link-footer:link {
+    color: white;
+}
+  
+/* visited link */
+.link-footer:visited {
+    color: wheat;
+}
+  
+/* mouse over link */
+.link-footer:hover {
+    color: $yellow;
+}
+  
+/* selected link */
+.link-footer:active {
+    color: $blue;
+}
+
 

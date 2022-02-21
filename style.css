@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900|Noto Serif");
+.button {
+  background-color: #F7E214;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 7px 10px;
+  color: #1D2025;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.launch {
+  color: #F7E214;
+  font-family: "Noto Serif", serif;
+}
+
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;

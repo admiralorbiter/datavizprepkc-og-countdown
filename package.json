@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/admiralorbiter/datavizkc/issues"
   },
-  "homepage": "https://github.com/admiralorbiter/datavizkc#readme"
+  "homepage": "https://github.com/admiralorbiter/datavizkc#readme",
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
 }

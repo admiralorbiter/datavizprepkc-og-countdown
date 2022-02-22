@@ -2,7 +2,7 @@
 .button {
   background-color: #F7E214;
   font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Noto Serif", serif;
   font-weight: bold;
   text-decoration: none;
   padding: 7px 10px;
@@ -59,7 +59,7 @@
   color: #F6F4F3;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Lato", sans-serif;
+  font-family: "Noto Serif", serif;
   font-size: 0.7em;
   letter-spacing: 5px;
   margin-top: 0%;
@@ -71,24 +71,6 @@
   padding: 20px;
   width: 200px;
   border-radius: 5px;
-}
-
-.days {
-  background: #F7E214;
-  color: #00334C;
-}
-
-.hours {
-  background: #F7E214;
-  color: #00334C;
-}
-
-.minutes {
-  background: #F7E214;
-  color: #00334C;
-}
-
-.seconds {
   background: #F7E214;
   color: #00334C;
 }

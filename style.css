@@ -47,7 +47,7 @@
   /* The image used */
   background-color: #00334C;
   /* Set a specific height */
-  min-height: 500px;
+  min-height: 600px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;

@@ -12,6 +12,14 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
+
+.Vis {
+  width: auto, auto;
+  margin: auto, auto;
+  height: auto, auto;
+}
+
+
 .launch {
   color: #F7E214;
   font-family: "Noto Serif", serif;

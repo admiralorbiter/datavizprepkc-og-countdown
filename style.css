@@ -1,70 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:900|Noto Serif");
-.button {
-  background-color: #F7E214;
-  font-size: 14px;
-  font-family: "Noto Serif", serif;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 7px 10px;
-  color: #1D2025;
-  border-radius: 5px;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-}
 
-
-.Vis {
+/* Used in visualization.html to control size of picture */
+.vis {
   width: auto, auto;
   margin: auto, auto;
   height: auto, auto;
 }
 
-
-.launch {
-  color: #F7E214;
-  font-family: "Noto Serif", serif;
-}
-
-.one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
-}
-
+/* Controls the header section of each page */
 .background-header {
   padding: 30px;
-  /* margin: 0 auto; */
   text-align: center;
   color: white;
   font-family: "Noto Serif", serif;
-  font-size: 30px;
-  width: 100%;
   background-image: linear-gradient(to right bottom, #00334c, #16506b, #2b6f8b, #4090ab, #56b2cb);
 }
 
+/* Controls the deafault background of each page */
 .background-body {
   padding: 60px;
   margin: 0 0, 0 0;
-  text-align: center;
   background: #00334C;
   color: white;
   font-size: 30px;
+  font-family: "Noto Serif", serif;
 }
 
-.parallax {
-  /* The image used */
-  background-color: #00334C;
-  /* Set a specific height */
-  min-height: 600px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+/* Used for the index only for the countdown timer */
 #timer {
-  color: #F6F4F3;
   text-align: center;
   text-transform: uppercase;
   font-family: "Noto Serif", serif;
@@ -74,6 +37,7 @@
   margin-bottom: 5%;
 }
 
+/* Used by the script when generating html code based on the current countdown */
 .days, .hours, .minutes, .seconds {
   display: inline-block;
   padding: 20px;
@@ -81,26 +45,22 @@
   border-radius: 5px;
   background: #F7E214;
   color: #00334C;
+  font-family: "Montserrat", sans-serif;
 }
 
+/* Formats the numbers seperate from the text */
 .numbers {
-  font-family: "Montserrat", sans-serif;
-  color: #00334C;
   font-size: 4em;
 }
 
-.footer-display {
-  background: #f7e214;
-  background: linear-gradient(90deg, #f7e214 0%, #00334c 20%, #00334c 80%, #f7e214 100%);
-}
-
+/* Style for links in the footer are determined below*/
 .link-footer:link {
   color: white;
 }
 
 /* visited link */
 .link-footer:visited {
-  color: wheat;
+  color: plum;
 }
 
 /* mouse over link */
@@ -112,5 +72,3 @@
 .link-footer:active {
   color: #56B2CB;
 }
-
-/*# sourceMappingURL=style.css.map */

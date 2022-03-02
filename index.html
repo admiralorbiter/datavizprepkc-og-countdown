@@ -21,42 +21,46 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <section class="background-header one-edge-shadow">
+    <!-- Top Header Section -->
+    <section class="background-header">
         <div class="container">
-            <h1 class="d-flex justify-content-center display-1">Data Viz PREP-KC</h1>
+            <h1 class="display-1">Data Viz PREP-KC</h1>
         </div>
     </section>
-    <div class="parallax">
-        <section class="container background-body">
-            <div class="launch">
+    <!-- Main Body Section -->
+    <div class="background-body text-center">
+        <section class="container">
+            <!-- Virtual Launch Title -->
+            <div style="color: #F7E214;">
               <h1>VIRTUAL LAUNCH DATE</h1>
               <h1>March 3, 2022 at 3:30 PM</h1>
-              <p><a href="https://bit.ly/DataVizPREPKC" class="btn btn-warning">Register Now!</a></p>
+              <p><a href="https://bit.ly/DataVizPREPKC" class="btn btn-warning">Register for Kick-off!</a></p>
             </div>
-            <!-- <p id="demo" class="d-flex justify-content-center display-2"></p> -->
-            <div id="timer" class="timer-display"></div>
-            <div class="d-md-none">
-                <iframe width="300" height="150" src="https://www.youtube.com/embed/-4e5jsWtlZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <!-- Timer -->
+            <div id="timer"></div>
+            <!-- Small Info Blurb -->
             <h1>1st Annual DataViz PREP-KC Competition</h1>
             <p>
                 The competition invites <span style="color:#56B2CB;">teams of high school teachers and students </span> from PREP-KC's partner urban districts to work together to create compelling data visualizations. The theme for the first year's competition is <br/><span style="color:#F7E214;">FOLLOW YOUR PASSION.</span>
             </p>
+            <!-- Main Buttons -->
             <p>
               <a href="contestguidelines.html" class="btn btn-info">Contest Guidelines</a>
               <a href="Visualization.html" class="btn btn-info">Visualization Process</a>
             </p>
+            <!-- Responsive Youtube Video -->
+            <!-- Changes size depending on the size of the screen -->
+            <div class="d-md-none">
+              <iframe width="300" height="150" src="https://www.youtube.com/embed/-4e5jsWtlZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class="d-none d-md-block d-lg-none">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/-4e5jsWtlZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
             <div class="d-none d-lg-block">
                 <iframe width="900" height="506" src="https://www.youtube.com/embed/-4e5jsWtlZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <!-- <p>
-              <a href="https://zoom.us/meeting/tJMsfuugpzkiH9TTaYIqwH2ztSQkwjeuOQaz/ics" class="cta btn-yellow button">Add to your <br/> Outlook Calendar (ICS)</a>
-              <a href="https://zoom.us/meeting/tJMsfuugpzkiH9TTaYIqwH2ztSQkwjeuOQaz/calendar/google/add" class="cta btn-yellow button">Add to your <br /> Google Calendar</a>
-            </p> -->
         </section>
     </div>
+    <!-- Footer Section -->
     <footer class="text-white" style="background-image: linear-gradient(to bottom, #00334c, #16506b, #2b6f8b, #4090ab, #56b2cb);">
         <!-- Grid container -->
         <div class="container pt-4 d-flex justify-content-center">
@@ -64,33 +68,19 @@
           <section class="mb-4">
             <div class="row">
               <!-- Facebook -->
-              <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-              ></a>
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;"
+              href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
         
               <!-- Twitter -->
               <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #55acee;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-twitter"></i
-              ></a>
+              class="btn btn-primary btn-floating m-1" style="background-color: #55acee;"
+              href="#!" role="button"><i class="fab fa-twitter"></i></a>
 
               <!-- Github -->
-              <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #333333;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-github"></i
-              ></a>
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;"
+              href="#!" role="button"><i class="fab fa-github"></i></a>
             
-
+              <!-- Email and Website -->
               <div>
                 <i class="fas fa-envelope me-3"></i>
                 jlane@prepkc.org
@@ -99,22 +89,16 @@
                 <a href="https://prepkc.org/" class="link-footer">prepkc.org</a>
               </div>
             </div>
-            
-            
           </section>
-          <!-- Section: Social media -->
         </div>
-        <!-- Grid container -->
       
         <!-- Copyright -->
-        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2022 Copyright:
-          <a class="text-dark" href="https://prepkc.org/">PREP-KC</a>
+          <a class="text-white" href="https://prepkc.org/">PREP-KC</a>
         </div>
-        <!-- Copyright -->
       </footer>
 
-    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
